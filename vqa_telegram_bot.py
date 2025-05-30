@@ -165,7 +165,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
 # Main function
 def main():
     # Replace with your actual bot token
-    BOT_TOKEN = "8096565407:AAHsW99X93OpSsMxf2fvIvH8dOKdjiY5I38"
+    BOT_TOKEN = "API_TOKEN"
 
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
